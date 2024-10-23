@@ -15,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();// is included to ensure the controller services are registered.
-builder.Services.AddSingleton(new ChatGPTService(new HttpClient(), "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"));
+builder.Services.AddSingleton(new ChatGPTService(new HttpClient(), "YOUR_API_KEY_HERE"));
 
 
 var app = builder.Build();
