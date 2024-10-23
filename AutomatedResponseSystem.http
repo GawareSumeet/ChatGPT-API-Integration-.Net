@@ -1,0 +1,6 @@
+@AutomatedResponseSystem_HostAddress = http://localhost:5183
+
+GET {{AutomatedResponseSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
